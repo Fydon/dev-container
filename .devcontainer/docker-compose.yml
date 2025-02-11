@@ -1,0 +1,5 @@
+services:
+  mysql:
+    image: bitnami/mysql:8.0.40
+    environment:
+      - MYSQL_ROOT_PASSWORD=testpassword

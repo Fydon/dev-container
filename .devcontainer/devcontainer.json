@@ -1,0 +1,10 @@
+{
+  "containerEnv": {
+    "BITNAMI_DEBUG": true
+  },
+  "dockerComposeFile": "./docker-compose.yml",
+  "name": "mysql",
+  "remoteUser": "root",
+  "service": "mysql",
+  "workspaceFolder": "/opt/bitnami/mysql"
+}
